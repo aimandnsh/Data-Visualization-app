@@ -1,7 +1,6 @@
 absl-py
 aiohttp
 aiosignal
-altai    
 annotated-types
 anyio
 astor
