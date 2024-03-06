@@ -157,6 +157,7 @@ def main():
         page_title='Data Friendly',
         page_icon='📊')
     st.title('Data Exploration and Visualization App 📊')
+    st.subheader("Please upload your CSV file to explore and visualize your data. Hope this app can provide your needs 😀")
 
     # File upload
     uploaded_file = st.file_uploader("Upload a CSV file", type=['csv'])
