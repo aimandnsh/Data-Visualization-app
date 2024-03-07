@@ -7,8 +7,6 @@ from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe
 from langchain_openai import OpenAI
 from dotenv import load_dotenv
 import os
-from lida import Manager, llm, TextGenerationConfig
-from PIL import Image
 
 
 #load .env file
