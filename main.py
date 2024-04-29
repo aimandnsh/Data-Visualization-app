@@ -177,7 +177,7 @@ def openai_text(data, query):
 # Main function
 def main():
     st.set_page_config(
-        page_title='Data Friendly',
+        page_title='DataVision Hub',
         page_icon='📊',
         layout='wide')
     st.title('Data Exploration and Visualization App 📊')
