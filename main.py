@@ -92,9 +92,7 @@ def display_additional_visualizations(data):
         # Plot histogram using Plotly
         column_to_visualize = st.selectbox('Choose a column to visualize', ['None'] + list(data.columns))
         if column_to_visualize != 'None':
-            bin_size = st.slider("Select bin size", min_value=1, max_value=100, value=10)
-            color = st.color_picker('Pick a color for the histogram', '#00f900')
-            fig = px.histogram(data, x=column_to_visualize, nbins=bin_size, color_discrete_sequence=[color])
+            fig = px.histogram(data, x=column_to_visualize, color=column_to_visualize)
             st.plotly_chart(fig)
 
     elif visualization_type in ['Box Plot', 'Violin Plot']:
