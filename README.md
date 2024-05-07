@@ -1,5 +1,7 @@
 # Data-Visualization-app
 
+![image](https://github.com/aimandnsh/Data-Visualization-app/assets/150990001/628062c7-5f6b-4e65-975c-1306a0eec9c4)
+
 # DataVision Hub 📊
 
 DataVision Hub is a web application built with Streamlit that allows users to explore and visualize their datasets easily. With DataVision Hub, users can upload their CSV files, apply filters, visualize data in various formats, and even interact with an AI-powered chatbot to gain insights from their data.
