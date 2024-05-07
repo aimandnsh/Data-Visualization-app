@@ -54,7 +54,7 @@ To run DataVision Hub locally, follow these steps:
 5. Run the Streamlit app:
 
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 ## Dependencies
