@@ -166,7 +166,6 @@ def openai_text(data, query):
     Returns:
     - answer (str): the answer to the query from the CSV file.
     """
-    allow_dangerous_code=True
     agent = create_pandas_dataframe_agent(OpenAI(temperature=0.3), data, verbose=True)
     answer = agent.run(query)
     
