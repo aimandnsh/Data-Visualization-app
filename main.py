@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
-from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
+from langchain_experimental.agents import create_pandas_dataframe_agent
 from langchain_openai import OpenAI
 from dotenv import load_dotenv
 import os
